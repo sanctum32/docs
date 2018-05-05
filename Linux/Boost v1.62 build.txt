@@ -1,0 +1,6 @@
+configuration:
+
+./bootstrap.sh --prefix=/usr/local --with-icu 
+
+compilation:
+./b2 --with=all install  
